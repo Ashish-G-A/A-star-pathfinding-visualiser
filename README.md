@@ -6,3 +6,9 @@ A-star guarantees the shortest path from point A to B on a grid while avoiding o
 
 
 Dependency : Pygame
+
+
+## Future Improvements
+* Add usage instructions
+* Use kivy for better GUI
+* Add more algorithms
