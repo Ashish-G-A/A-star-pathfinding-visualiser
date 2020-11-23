@@ -1,23 +1,21 @@
 import pygame
 
-window_size = 800
+window_size = 900
 node_size = 20
 
 black = (0, 0, 0)
-grey = (237, 245, 225)
+grey = (240, 240, 255)
 
-red = (214, 40, 40)
-orange = (255, 128, 0)
-yellow = (253, 210, 25)
-green = (83, 211, 209)
-maroon = (255, 0, 127)
-blue = (0, 0, 255)
+red = (255, 50, 50)
+green = (100, 255, 100)
+blue = (50, 50, 255)
 
-start_node_color = yellow
-end_node_color = green
-open_set_color = green
-closed_set_color = (142, 228, 175)
+start_node_color = green
+end_node_color = blue
+open_set_color = end_node_color
+closed_set_color = start_node_color
 path_color = red
+
 
 def draw_rect(screen, pos, color):
     pygame.draw.rect(screen, black, (pos[1], pos[0], node_size, node_size))
